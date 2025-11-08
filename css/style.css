@@ -223,13 +223,19 @@ h6 {
   padding-bottom: 20rem;
 }
 
+.process .process__img {
+  transform: rotate(45deg);
+}
+
 .process__img {
-  width: 9rem;
-  height: 4.5rem;
+  width: 12.7rem;
+  height: 12.7rem;
+  margin-right: 2rem;
 }
 
 .process__header {
   margin-bottom: 4.9rem;
+  padding-top: 1rem;
   font-weight: 700;
   font-size: 4.8rem;
   line-height: 140%;
@@ -276,4 +282,61 @@ h6 {
   font-size: 1.4rem;
   line-height: 160%;
   opacity: 0.5;
+}
+
+.command {
+  padding-bottom: 20rem;
+}
+
+.command__title {
+  margin-bottom: 11.9rem;
+}
+
+.command__header {
+  margin-bottom: 0;
+}
+
+.command__wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+
+.command__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.command__img {
+  width: 19rem;
+  height: 19rem;
+  margin-bottom: 4rem;
+  border-radius: 50%;
+}
+
+.command__name {
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 140%;
+}
+
+.command__professional {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  line-height: 160%;
+  opacity: 0.8;
+}
+
+.command__link {
+  font-size: 1.6rem;
+  line-height: 150%;
+  border: 0.1rem solid #ffffff;
+  border-radius: 5rem;
+  padding: 1rem 3rem;
+  width: 14.3rem;
+  height: 4.4rem;
 }
