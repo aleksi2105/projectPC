@@ -431,7 +431,6 @@ h6 {
   line-height: 160%;
   opacity: 0.5;
 }
-
 .modal__elements {
   width: 45.4rem;
   margin: 0 auto 3.2rem auto;
@@ -463,4 +462,9 @@ h6 {
   width: 5rem;
   height: 5rem;
   cursor: pointer;
+}
+
+.noscroll {
+  overflow: hidden;
+  height: 100%;
 }
